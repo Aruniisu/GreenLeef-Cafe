@@ -4,7 +4,7 @@ const HomePage: React.FC = () => {
   return (
     <div style={{ padding: '2rem', textAlign: 'center' }}>
       <h1>Welcome to GreenLeef Cafe</h1>
-      <p>Your coffee, your way.</p>
+      <p>This is the default landing page.</p>
     </div>
   );
 };
