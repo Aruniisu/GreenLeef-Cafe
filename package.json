@@ -1,0 +1,23 @@
+{
+  "name": "greenleef-cafe",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "backend:build": "tsc",
+    "backend:start": "node dist/index.js",
+    "backend": "npm run backend:build && npm run backend:start"
+  },
+  "dependencies": {
+    "next": "13.5.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+    // other dependencies ...
+  },
+  "devDependencies": {
+    "typescript": "5.2.2"
+    // other dev dependencies ...
+  }
+}
